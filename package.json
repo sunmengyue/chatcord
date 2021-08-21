@@ -1,0 +1,26 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunmengyue/chatcord.git"
+  },
+  "author": "Simon Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunmengyue/chatcord/issues"
+  },
+  "homepage": "https://github.com/sunmengyue/chatcord#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.1.3"
+  }
+}
